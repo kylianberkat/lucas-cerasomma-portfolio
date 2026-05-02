@@ -1851,6 +1851,7 @@ section[data-section].visible,
 .travel__country {
   border-radius: var(--radius-card);
   border: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: rgba(15, 23, 42, 0.85);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -649,7 +649,49 @@ function initSmoothScroll() {
 }
 
 /* ==========================================================================
-   6. ANIMATIONS AU SCROLL (IntersectionObserver)
+   6. IMAGES VOYAGES (chargement paresseux)
+   ========================================================================== */
+
+function initLazyTravelBackgrounds() {
+  const cards = document.querySelectorAll('.travel__country[data-bg]');
+  if (!cards.length) return;
+
+  const loadBg = (el) => {
+    const url = el.getAttribute('data-bg');
+    if (!url) return;
+    const img = new Image();
+    img.onload = () => {
+      el.style.backgroundImage = `url('${url}')`;
+      el.classList.add('travel__country--bg-loaded');
+    };
+    img.onerror = () => {
+      el.classList.add('travel__country--bg-error');
+    };
+    img.src = url;
+  };
+
+  if (typeof IntersectionObserver === 'undefined') {
+    cards.forEach(loadBg);
+    return;
+  }
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          loadBg(entry.target);
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { rootMargin: '180px 0px', threshold: 0.01 }
+  );
+
+  cards.forEach((el) => observer.observe(el));
+}
+
+/* ==========================================================================
+   7. ANIMATIONS AU SCROLL (IntersectionObserver)
    ========================================================================== */
 
 function initScrollAnimations() {
@@ -682,7 +724,7 @@ function initScrollAnimations() {
 }
 
 /* ==========================================================================
-   7. NAVIGATION ACTIVE STATE
+   8. NAVIGATION ACTIVE STATE
    ========================================================================== */
 
 function initActiveNavState() {
@@ -709,7 +751,7 @@ function initActiveNavState() {
 }
 
 /* ==========================================================================
-   8. NAVBAR AU SCROLL (fond transparent -> solid)
+   9. NAVBAR AU SCROLL (fond transparent -> solid)
    ========================================================================== */
 
 function initNavbarScroll() {
@@ -726,7 +768,7 @@ function initNavbarScroll() {
 }
 
 /* ==========================================================================
-   9. SELECTEUR DE LANGUE
+   10. SELECTEUR DE LANGUE
    ========================================================================== */
 
 function initLanguageSelector() {
@@ -741,7 +783,7 @@ function initLanguageSelector() {
 }
 
 /* ==========================================================================
-   10. ANNEE DYNAMIQUE FOOTER
+   11. ANNEE DYNAMIQUE FOOTER
    ========================================================================== */
 
 function initDynamicYear() {
@@ -752,7 +794,7 @@ function initDynamicYear() {
 }
 
 /* ==========================================================================
-   11. INITIALISATION AU CHARGEMENT
+   12. INITIALISATION AU CHARGEMENT
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -766,6 +808,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initActiveNavState();
   initLanguageSelector();
   initDynamicYear();
+
+  initLazyTravelBackgrounds();
 
   // Lancer les animations au scroll
   initScrollAnimations();
