@@ -12,42 +12,42 @@ const translations = {
   fr: {
     nav: {
       home: 'Accueil',
-      about: 'A propos',
+      about: 'À propos',
       education: 'Formation',
       experience: 'Parcours',
-      skills: 'Competences',
+      skills: 'Compétences',
       future: 'Futur',
       commitments: 'Engagements',
       travel: 'Voyages',
       contact: 'Contact',
       wikipedia: 'Wikipedia',
-      downloadCV: 'Telecharger mon CV'
+      downloadCV: 'Télécharger mon CV'
     },
     hero: {
       title: 'Lucas Cerasomma Ribeiro',
-      subtitle: 'Bachelor Management International • Finance, coordination et relation client',
-      quote: 'Un profil fiable, dynamique et oriente terrain.',
-      description: 'Etudiant a l ESSCA, je construis un parcours entre gestion operationnelle, service client et organisation d activites.',
-      cta1: 'Me decouvrir',
-      cta2: 'Telecharger mon CV',
+      subtitle: 'Bachelor Management International • Finance, coordination et management interculturel',
+      quote: 'Un profil fiable, dynamique et orienté terrain.',
+      description: 'Étudiant à l\'ESSCA, je construis un parcours entre gestion opérationnelle, management interculturel et organisation d\'activités. Je recherche une alternance en marketing international et/ou management.',
+      cta1: 'Me découvrir',
+      cta2: 'Télécharger mon CV',
       cta3: 'Ma page Wikipedia',
       miniCards: [
-        { title: 'Base a Septemes', value: 'Etudiant ESSCA' },
-        { title: 'Focus', value: 'Finance & evenementiel' }
+        { title: 'Basé à Septèmes-les-Vallons', value: 'Étudiant ESSCA' },
+        { title: 'Focus', value: 'Marketing international & management' }
       ],
-      keywords: ['Relation client', 'Gestion', 'Coordination']
+      keywords: ['Commerce', 'Management', 'Digital']
     },
     about: {
-      title: 'A propos',
-      content: 'Je suis un etudiant relationnel, rigoureux et adaptable. J aime le travail en equipe et les environnements ou il faut organiser, coordonner et avancer concretement.',
-      note: 'Mon objectif est de rejoindre une alternance en septembre 2026 pour renforcer mes competences en finance de gestion ou en coordination evenementielle.',
+      title: 'À propos',
+      content: 'Je suis un étudiant relationnel, rigoureux et adaptable. J\'aime le travail en équipe et les environnements où il faut organiser, coordonner et avancer concrètement.',
+      note: 'Je recherche une alternance à partir de septembre 2026 en marketing international et/ou management, pour renforcer mes compétences et construire un parcours professionnel solide.',
       qualities: [
-        { title: 'Ecoute active', icon: 'users' },
-        { title: 'Adaptabilite', icon: 'refresh' },
+        { title: 'Écoute active', icon: 'users' },
+        { title: 'Adaptabilité', icon: 'refresh' },
         { title: 'Rigueur', icon: 'target' },
-        { title: 'Esprit d equipe', icon: 'heart' },
-        { title: 'Ponctualite', icon: 'zap' },
-        { title: 'Sens des responsabilites', icon: 'search' }
+        { title: 'Esprit d\'équipe', icon: 'heart' },
+        { title: 'Ponctualité', icon: 'zap' },
+        { title: 'Sens des responsabilités', icon: 'search' }
       ]
     },
     education: {
@@ -57,126 +57,133 @@ const translations = {
           period: '2024-2027',
           degree: 'Bachelor Management International',
           school: 'ESSCA',
-          description: 'Gestion, marketing, relation client, travail en equipe multiculturel.',
+          description: 'Management, marketing, gestion de projet et travail en équipe multiculturel.',
           status: 'En cours'
         },
         {
           period: '2024',
-          degree: 'Baccalaureat',
-          school: 'Lycee Saint-Louis Sainte-Marie - Gignac-la-Nerthe',
-          description: 'Parcours general, solide culture generale et appui en geographie.',
+          degree: 'Baccalauréat général',
+          school: 'Lycée Saint-Louis Sainte-Marie — Gignac-la-Nerthe',
+          description: 'Spécialités : mathématiques, NSI, SES.',
+          status: 'Obtenu'
+        },
+        {
+          period: '2023',
+          degree: 'BAFA',
+          school: 'Brevet d\'aptitude aux fonctions d\'animateur',
+          description: 'Encadrement de mineurs, sécurité, animation et dynamique de groupe.',
           status: 'Obtenu'
         }
       ]
     },
     experience: {
-      title: 'Parcours & Experiences',
+      title: 'Parcours & expériences',
       items: [
         {
-          period: 'Juil.-Aout 2025',
+          period: 'Juil.-août 2025',
           duration: '2 mois',
-          role: 'Teleconseiller CRC',
+          role: 'Téléconseiller CRC',
           company: 'Groupe ETIC',
           location: 'Marseille',
-          description: 'Traitement des demandes clients par messagerie, appels prospects et application des procedures de relation client.'
+          description: 'Traitement des demandes par messagerie, appels prospects et respect des procédures qualité.'
         },
         {
-          period: 'Ete 2024',
+          period: 'Été 2024',
           duration: '2 mois',
           role: 'Animateur en centre de loisirs',
-          company: 'Mairie de Septemes-les-Vallons',
-          location: 'Septemes',
-          description: 'Planification d activites educatives et sportives, animation de groupes et respect du cadre pedagogique.'
+          company: 'Mairie de Septèmes-les-Vallons',
+          location: 'Septèmes-les-Vallons',
+          description: 'Planification d\'activités éducatives et sportives, animation de groupes et respect du cadre pédagogique.'
         },
         {
-          period: 'Ete 2023',
+          period: 'Été 2023',
           duration: '2 mois',
           role: 'Animateur (10-12 ans)',
           company: 'Planet Jeunes - Luynes',
           location: 'Luynes',
-          description: 'Encadrement d enfants, creation d activites collectives et gestion des situations imprévues avec sang-froid.'
+          description: 'Encadrement d\'enfants, création d\'activités collectives et gestion des situations imprévues avec sang-froid.'
         },
         {
           period: '2024',
           duration: '8 semaines',
-          role: 'Stagiaire operationnel',
+          role: 'Stagiaire opérationnel',
           company: 'Mon Club Football',
           location: 'Bouc-Bel-Air',
-          description: 'Gestion des factures, reservations, appels clients, disponibilites des terrains, stocks et caisse.'
+          description: 'Gestion des factures, réservations, appels entrants, disponibilités des terrains, stocks et caisse.'
         },
         {
           period: '2023-2024',
           duration: '1 an',
           role: 'Achat-revente en ligne',
-          company: 'Activite personnelle - Vinted',
-          location: 'Remote',
-          description: 'Sourcing produits, negociation, suivi des ventes, optimisation de marge et logistique expedition.'
+          company: 'Activité personnelle — Vinted',
+          location: 'À distance',
+          description: 'Sourcing produits, négociation, suivi des ventes, optimisation de marge et logistique d\'expédition.'
         }
       ]
     },
     skills: {
-      title: 'Competences',
-      professional: 'Competences professionnelles',
+      title: 'Compétences',
+      professional: 'Compétences professionnelles',
       personal: 'Aptitudes personnelles',
       languages: 'Langues',
       proSkills: [
-        'Relation client',
+        'Management opérationnel & coordination',
         'Gestion de planning',
         'Suivi administratif & facturation',
         'Gestion de stock et caisse',
         'Coordination terrain',
         'Canva & communication digitale'
       ],
-      softSkills: ['Esprit d equipe', 'Adaptabilite', 'Rigueur', 'Sens du relationnel', 'Patience', 'Ponctualite'],
+      softSkills: ['Esprit d\'équipe', 'Adaptabilité', 'Rigueur', 'Sens du relationnel', 'Patience', 'Ponctualité'],
       langs: [
-        { lang: 'Francais', level: 'Langue maternelle' },
-        { lang: 'Anglais', level: 'B2' },
-        { lang: 'Espagnol', level: 'A2' }
+        { lang: 'Français', level: 'Langue maternelle' },
+        { lang: 'Anglais', level: 'Intermédiaire (B2)' },
+        { lang: 'Espagnol', level: 'Intermédiaire (A2)' }
       ]
     },
     future: {
       title: 'Futur, projets & ambitions',
-      intro: 'Je recherche une alternance a partir de septembre 2026 pour continuer a apprendre sur le terrain dans la finance ou l evenementiel.',
+      intro: 'Je recherche une alternance à partir de septembre 2026 en marketing international et/ou management, pour apprendre sur le terrain tout en consolidant mes acquis.',
       cards: [
         {
-          title: 'Etudes visees',
-          description: 'Finaliser mon Bachelor puis poursuivre en Master oriente finance ou management.'
+          title: 'Études visées',
+          description: 'Finaliser mon Bachelor puis poursuivre en Master orienté marketing international, management ou stratégie.'
         },
         {
-          title: 'Ce que je veux developper',
-          description: 'Renforcer la gestion d activite, l organisation, le reporting et la coordination de projets.'
+          title: 'Ce que je veux développer',
+          description: 'Renforcer la gestion d\'activité, l\'organisation, le reporting et la coordination de projets.'
         },
         {
           title: 'Projet professionnel',
-          description: 'Evoluer vers un poste de pilotage operationnel, gestion ou coordination evenementielle.'
+          description: 'Évoluer vers un poste où management d\'équipe et de projet, stratégie commerciale et responsabilités se conjuguent.'
         }
       ]
     },
     commitments: {
       title: 'Engagements',
-      subtitle: 'Des engagements qui refletent mes valeurs et ma regularite',
+      subtitle: 'Des engagements qui reflètent mes valeurs et ma régularité',
       items: [
         {
-          title: 'Les Chats de Marie-Helene',
-          description: 'Soutien a des actions en faveur de la protection animale.'
+          title: 'Les Chats de Marie-Hélène',
+          description: 'Soutien à des actions en faveur de la protection animale.'
         },
         {
-          title: 'Don du sang regulier',
-          description: 'Donateur regulier a la Maison du Sang de Marseille.'
+          title: 'Don du sang régulier',
+          description: 'Donateur régulier à la Maison du sang de Marseille.'
         },
         {
-          title: 'Medecins Sans Frontieres',
-          description: 'Soutien a une cause humanitaire en tant que donateur.'
+          title: 'Médecins sans frontières',
+          description: 'Soutien à une cause humanitaire en tant que donateur.'
         }
       ]
     },
     travel: {
       title: 'Voyages & ouverture',
-      subtitle: 'Des voyages qui renforcent ma curiosite, mon adaptation et mon ouverture.',
+      subtitle: 'Des voyages qui renforcent ma curiosité, mon adaptation et mon ouverture.',
       countries: [
         { name: 'Espagne', code: 'ES' },
         { name: 'Japon', code: 'JP' },
-        { name: 'Republique Tcheque', code: 'CZ' },
+        { name: 'République tchèque', code: 'CZ' },
         { name: 'Suisse', code: 'CH' },
         { name: 'Portugal', code: 'PT' },
         { name: 'Italie', code: 'IT' }
@@ -184,31 +191,31 @@ const translations = {
     },
     contact: {
       title: 'Me retrouver',
-      subtitle: 'Disponible pour echanger sur mon parcours et mes opportunites d alternance a partir de septembre 2026.',
-      location: 'Septemes 13240',
-      email: 'M envoyer un email',
+      subtitle: 'Disponible pour échanger sur mon parcours, une alternance en marketing international et/ou management, ou toute opportunité à partir de septembre 2026.',
+      location: 'Septèmes-les-Vallons (13240)',
+      email: 'M\'envoyer un e-mail',
       linkedin: 'Voir mon LinkedIn',
-      downloadCV: 'Telecharger mon CV'
+      downloadCV: 'Télécharger mon CV'
     },
     footer: {
-      description: 'Portfolio etudiant',
-      rights: 'Tous droits reserves'
+      description: 'Portfolio étudiant',
+      rights: 'Tous droits réservés'
     },
     wiki: {
       back: 'Retour au portfolio',
       title: 'Lucas Cerasomma Ribeiro',
-      subtitle: 'Notice biographique inspiree d une page encyclopedique',
-      intro: 'est un etudiant francais base a Septemes. Son parcours combine relation client, gestion operationnelle et coordination terrain.',
+      subtitle: 'Notice biographique inspirée d\'une page encyclopédique',
+      intro: 'est un étudiant français basé à Septèmes-les-Vallons. Son parcours combine management opérationnel, gestion de projet et coordination terrain.',
       tocTitle: 'Sommaire',
-      toc: { identity: 'Identite', education: 'Formation', experience: 'Parcours', skills: 'Competences', commitments: 'Engagements', interests: 'Ouverture' },
-      infobox: { status: 'Etudiant', field: 'Finance, gestion, evenementiel', location: 'Septemes, France', languages: 'Francais, anglais, espagnol' },
+      toc: { identity: 'Identité', education: 'Formation', experience: 'Parcours', skills: 'Compétences', commitments: 'Engagements', interests: 'Ouverture' },
+      infobox: { status: 'Étudiant', field: 'Marketing international, management', location: 'Septèmes-les-Vallons, France', languages: 'Français, anglais, espagnol' },
       sections: {
-        identity: { title: 'Identite', content: 'Etudiant a l ESSCA, Lucas Cerasomma Ribeiro developpe un profil professionnel axe sur la gestion et la relation client.' },
-        education: { title: 'Formation', content: 'Il suit un Bachelor en Management International apres l obtention de son baccalaureat.' },
-        experience: { title: 'Parcours', content: 'Ses experiences couvrent la relation client, l animation, la gestion operationnelle et la coordination quotidienne.' },
-        skills: { title: 'Competences', content: 'Il mobilise des competences en organisation, suivi administratif, communication et travail d equipe.' },
-        commitments: { title: 'Engagements', content: 'Il s implique dans des actions associatives et solidaires, notamment via des dons reguliers.' },
-        interests: { title: 'Ouverture internationale', content: 'Ses voyages nourrissent son adaptation et sa capacite a evoluer dans des contextes varies.' }
+        identity: { title: 'Identité', content: 'Étudiant à l\'ESSCA, Lucas Cerasomma Ribeiro développe un profil professionnel axé sur le management et le marketing international.' },
+        education: { title: 'Formation', content: 'Il suit un Bachelor en Management International après son baccalauréat ; il est titulaire du BAFA.' },
+        experience: { title: 'Parcours', content: 'Ses expériences couvrent l\'accueil client, l\'animation, la gestion opérationnelle et la coordination quotidienne.' },
+        skills: { title: 'Compétences', content: 'Il mobilise des compétences en organisation, suivi administratif, communication et travail d\'équipe.' },
+        commitments: { title: 'Engagements', content: 'Il s\'implique dans des actions associatives et solidaires, notamment via des dons réguliers.' },
+        interests: { title: 'Ouverture internationale', content: 'Ses voyages nourrissent son adaptation et sa capacité à évoluer dans des contextes variés.' }
       }
     }
   },
@@ -228,22 +235,22 @@ const translations = {
     },
     hero: {
       title: 'Lucas Cerasomma Ribeiro',
-      subtitle: 'International Management Bachelor • Finance, coordination and client relations',
-      quote: 'A reliable and dynamic profile focused on execution.',
-      description: 'ESSCA student building practical experience in operations, client service and activity coordination.',
+      subtitle: 'International Management Bachelor • Finance, coordination and intercultural management',
+      quote: 'A reliable, dynamic profile focused on hands-on work.',
+      description: 'ESSCA student building a coherent path between operational management, intercultural management and project delivery. Seeking a work-study role in international marketing and/or management.',
       cta1: 'Discover',
       cta2: 'Download CV',
       cta3: 'My Wikipedia page',
       miniCards: [
-        { title: 'Based in Septemes', value: 'ESSCA student' },
-        { title: 'Focus', value: 'Finance & events' }
+        { title: 'Based in Septèmes-les-Vallons', value: 'ESSCA student' },
+        { title: 'Focus', value: 'International marketing & management' }
       ],
-      keywords: ['Client relations', 'Operations', 'Coordination']
+      keywords: ['Business', 'Management', 'Digital']
     },
     about: {
       title: 'About',
       content: 'I am a people-oriented, disciplined and adaptable student. I enjoy teamwork and hands-on environments where organization and reliability matter.',
-      note: 'My objective is to secure a work-study position from September 2026 in finance management or event coordination.',
+      note: 'I am looking for a work-study position from September 2026 in international marketing and/or management, to strengthen my skills and build a solid career path.',
       qualities: [
         { title: 'Active listening', icon: 'users' },
         { title: 'Adaptability', icon: 'refresh' },
@@ -256,18 +263,19 @@ const translations = {
     education: {
       title: 'Education',
       items: [
-        { period: '2024-2027', degree: 'International Management Bachelor', school: 'ESSCA', description: 'Management, marketing, client relations and teamwork.', status: 'In progress' },
-        { period: '2024', degree: 'Baccalaureate', school: 'Lycee Saint-Louis Sainte-Marie - Gignac-la-Nerthe', description: 'General track with strong general knowledge.', status: 'Completed' }
+        { period: '2024-2027', degree: 'International Management Bachelor', school: 'ESSCA', description: 'Management, marketing, project work and multicultural teamwork.', status: 'In progress' },
+        { period: '2024', degree: 'General baccalaureate', school: 'Lycée Saint-Louis Sainte-Marie — Gignac-la-Nerthe', description: 'Specialisms: mathematics, computer science (NSI), economics (SES).', status: 'Completed' },
+        { period: '2023', degree: 'BAFA (youth work certificate)', school: 'French youth leadership qualification', description: 'Supervising minors, safety, group dynamics and facilitation.', status: 'Completed' }
       ]
     },
     experience: {
-      title: 'Journey & Experience',
+      title: 'Journey & experience',
       items: [
-        { period: 'Jul-Aug 2025', duration: '2 months', role: 'CRC Call Center Advisor', company: 'Groupe ETIC', location: 'Marseille', description: 'Handled client requests via messaging and outbound prospect calls following internal standards.' },
-        { period: 'Summer 2024', duration: '2 months', role: 'Leisure Center Facilitator', company: 'City of Septemes-les-Vallons', location: 'Septemes', description: 'Planned educational and sports activities and supervised groups within a pedagogical framework.' },
-        { period: 'Summer 2023', duration: '2 months', role: 'Activity Facilitator (Ages 10-12)', company: 'Planet Jeunes - Luynes', location: 'Luynes', description: 'Managed group activities, supervision and incident response in a structured setting.' },
-        { period: '2024', duration: '8 weeks', role: 'Operations Intern', company: 'Mon Club Football', location: 'Bouc-Bel-Air', description: 'Managed invoices, bookings, incoming calls, field availability, stock and cash desk support.' },
-        { period: '2023-2024', duration: '1 year', role: 'Online Resale Activity', company: 'Personal project - Vinted', location: 'Remote', description: 'Managed sourcing, pricing, margin, negotiation, customer follow-up and shipping workflow.' }
+        { period: 'Jul.-Aug. 2025', duration: '2 months', role: 'CRC call center advisor', company: 'Groupe ETIC', location: 'Marseille', description: 'Handled requests via messaging and outbound calls while following quality procedures.' },
+        { period: 'Summer 2024', duration: '2 months', role: 'Leisure centre facilitator', company: 'Municipality of Septèmes-les-Vallons', location: 'Septèmes-les-Vallons', description: 'Planned educational and sports activities and supervised groups within a pedagogical framework.' },
+        { period: 'Summer 2023', duration: '2 months', role: 'Activity facilitator (ages 10–12)', company: 'Planet Jeunes — Luynes', location: 'Luynes', description: 'Supervised children, designed group activities and managed unexpected situations calmly.' },
+        { period: '2024', duration: '8 weeks', role: 'Operations intern', company: 'Mon Club Football', location: 'Bouc-Bel-Air', description: 'Invoices, bookings, incoming calls, pitch availability, stock and cash desk.' },
+        { period: '2023–2024', duration: '1 year', role: 'Online resale', company: 'Personal project — Vinted', location: 'Remote', description: 'Sourcing, negotiation, sales follow-up, margin and shipping logistics.' }
       ]
     },
     skills: {
@@ -275,30 +283,30 @@ const translations = {
       professional: 'Professional skills',
       personal: 'Personal strengths',
       languages: 'Languages',
-      proSkills: ['Client relations', 'Scheduling', 'Administrative follow-up & invoicing', 'Stock and cash management', 'Field coordination', 'Canva & digital communication'],
+      proSkills: ['Operational management & coordination', 'Scheduling', 'Administrative follow-up & invoicing', 'Stock and cash management', 'Field coordination', 'Canva & digital communication'],
       softSkills: ['Team spirit', 'Adaptability', 'Discipline', 'People skills', 'Patience', 'Punctuality'],
       langs: [
         { lang: 'French', level: 'Native' },
-        { lang: 'English', level: 'B2' },
-        { lang: 'Spanish', level: 'A2' }
+        { lang: 'English', level: 'Intermediate (B2)' },
+        { lang: 'Spanish', level: 'Intermediate (A2)' }
       ]
     },
     future: {
       title: 'Future, projects & ambitions',
-      intro: 'I am looking for a work-study role starting in September 2026 to keep learning through practical responsibilities in finance or events.',
+      intro: 'I am looking for a work-study role from September 2026 in international marketing and/or management, combining learning on the job with academic goals.',
       cards: [
-        { title: 'Academic path', description: 'Complete my Bachelor, then move on to a Master in finance or management.' },
-        { title: 'Skills to build', description: 'Develop activity management, reporting, planning and project coordination.' },
-        { title: 'Career goal', description: 'Grow toward operations, activity management or event coordination roles.' }
+        { title: 'Academic goals', description: 'Finish my Bachelor and pursue a Master focused on international marketing, management or strategy.' },
+        { title: 'Skills to build', description: 'Strengthen activity management, organization, reporting and project coordination.' },
+        { title: 'Career goal', description: 'Grow toward roles where team and project management, commercial strategy and responsibility come together.' }
       ]
     },
     commitments: {
       title: 'Commitments',
       subtitle: 'Commitments that reflect consistency and values',
       items: [
-        { title: 'Les Chats de Marie-Helene', description: 'Support for local animal welfare initiatives.' },
-        { title: 'Regular blood donor', description: 'Regular donor at Maison du Sang de Marseille.' },
-        { title: 'Doctors Without Borders', description: 'Supporter and donor of humanitarian initiatives.' }
+        { title: 'Les Chats de Marie-Hélène', description: 'Support for local animal welfare initiatives.' },
+        { title: 'Regular blood donor', description: 'Regular donor at the Marseille blood centre.' },
+        { title: 'Doctors Without Borders', description: 'Supporter and donor to humanitarian work.' }
       ]
     },
     travel: {
@@ -315,9 +323,9 @@ const translations = {
     },
     contact: {
       title: 'Get in touch',
-      subtitle: 'Available to discuss my profile and work-study opportunities from September 2026.',
-      location: 'Septemes 13240',
-      email: 'Send me an email',
+      subtitle: 'Happy to discuss my path, a work-study role in international marketing and/or management, or any opportunity from September 2026.',
+      location: 'Septèmes-les-Vallons (13240)',
+      email: 'Email me',
       linkedin: 'See my LinkedIn',
       downloadCV: 'Download CV'
     },
@@ -328,26 +336,26 @@ const translations = {
     wiki: {
       back: 'Back to portfolio',
       title: 'Lucas Cerasomma Ribeiro',
-      subtitle: 'Biography inspired by an encyclopedia page',
-      intro: 'is a French student based in Septemes with a profile focused on operations, client service and coordination.',
+      subtitle: 'Biography inspired by an encyclopedia-style page',
+      intro: 'is a French student based in Septèmes-les-Vallons, building experience in operational management, projects and coordination.',
       tocTitle: 'Contents',
       toc: { identity: 'Identity', education: 'Education', experience: 'Journey', skills: 'Skills', commitments: 'Commitments', interests: 'Openness' },
-      infobox: { status: 'Student', field: 'Finance, management, events', location: 'Septemes, France', languages: 'French, English, Spanish' },
+      infobox: { status: 'Student', field: 'International marketing, management', location: 'Septèmes-les-Vallons, France', languages: 'French, English, Spanish' },
       sections: {
-        identity: { title: 'Identity', content: 'ESSCA student developing a practical profile in management and client-focused operations.' },
-        education: { title: 'Education', content: 'Currently enrolled in an International Management Bachelor after completing baccalaureate studies.' },
-        experience: { title: 'Journey', content: 'Experience across customer service, youth facilitation, operational support and activity management.' },
-        skills: { title: 'Skills', content: 'Competencies in organization, scheduling, administrative follow-up, communication and teamwork.' },
-        commitments: { title: 'Commitments', content: 'Engaged in social and solidarity actions with consistent involvement.' },
-        interests: { title: 'International openness', content: 'Travel contributes to adaptability, perspective and cultural openness.' }
+        identity: { title: 'Identity', content: 'ESSCA student developing a profile oriented toward management and international marketing.' },
+        education: { title: 'Education', content: 'International Management Bachelor after the baccalaureate; holds the BAFA youth-work qualification.' },
+        experience: { title: 'Journey', content: 'Roles spanning customer-facing work, youth activities, operational support and day-to-day coordination.' },
+        skills: { title: 'Skills', content: 'Organization, administrative follow-up, communication and teamwork.' },
+        commitments: { title: 'Commitments', content: 'Involvement in solidarity and community initiatives, including regular giving.' },
+        interests: { title: 'International openness', content: 'Travel strengthens adaptability and ability to work in varied contexts.' }
       }
     }
   },
   es: {
     nav: {
       home: 'Inicio',
-      about: 'Sobre mi',
-      education: 'Formacion',
+      about: 'Sobre mí',
+      education: 'Formación',
       experience: 'Recorrido',
       skills: 'Competencias',
       future: 'Futuro',
@@ -359,22 +367,22 @@ const translations = {
     },
     hero: {
       title: 'Lucas Cerasomma Ribeiro',
-      subtitle: 'Bachelor en Management Internacional • Finanzas, coordinacion y relacion con clientes',
-      quote: 'Un perfil fiable, dinamico y orientado a la accion.',
-      description: 'Estudiante de ESSCA con experiencia practica en gestion operativa, atencion al cliente y coordinacion.',
+      subtitle: 'Bachelor en Management Internacional • Finanzas, coordinación y management intercultural',
+      quote: 'Un perfil fiable, dinámico y orientado al terreno.',
+      description: 'Estudiante en ESSCA: construyo un recorrido entre gestión operativa, management intercultural y organización de actividades. Busco una alternancia en marketing internacional y/o management.',
       cta1: 'Descubrir',
       cta2: 'Descargar CV',
-      cta3: 'Mi pagina Wikipedia',
+      cta3: 'Mi página Wikipedia',
       miniCards: [
-        { title: 'Basado en Septemes', value: 'Estudiante ESSCA' },
-        { title: 'Enfoque', value: 'Finanzas y eventos' }
+        { title: 'Basado en Septèmes-les-Vallons', value: 'Estudiante ESSCA' },
+        { title: 'Enfoque', value: 'Marketing internacional y management' }
       ],
-      keywords: ['Relacion cliente', 'Gestion', 'Coordinacion']
+      keywords: ['Comercio', 'Management', 'Digital']
     },
     about: {
-      title: 'Sobre mi',
-      content: 'Soy un estudiante adaptable, organizado y orientado al trabajo en equipo. Me gustan los entornos concretos con responsabilidades reales.',
-      note: 'Busco una alternancia desde septiembre de 2026 en finanzas de gestion o coordinacion de eventos.',
+      title: 'Sobre mí',
+      content: 'Soy un estudiante cercano, riguroso y adaptable. Me gusta el trabajo en equipo y los entornos donde hay que organizar, coordinar y avanzar concretamente.',
+      note: 'Busco una alternancia a partir de septiembre de 2026 en marketing internacional y/o management, para reforzar mis competencias y construir un recorrido sólido.',
       qualities: [
         { title: 'Escucha activa', icon: 'users' },
         { title: 'Adaptabilidad', icon: 'refresh' },
@@ -385,20 +393,21 @@ const translations = {
       ]
     },
     education: {
-      title: 'Formacion',
+      title: 'Formación',
       items: [
-        { period: '2024-2027', degree: 'Bachelor en Management Internacional', school: 'ESSCA', description: 'Gestion, marketing, relacion cliente y trabajo en equipo.', status: 'En curso' },
-        { period: '2024', degree: 'Bachillerato', school: 'Lycee Saint-Louis Sainte-Marie - Gignac-la-Nerthe', description: 'Formacion general y buena cultura general.', status: 'Obtenido' }
+        { period: '2024-2027', degree: 'Bachelor en Management Internacional', school: 'ESSCA', description: 'Management, marketing, gestión de proyectos y trabajo en equipo multicultural.', status: 'En curso' },
+        { period: '2024', degree: 'Bachillerato general', school: 'Lycée Saint-Louis Sainte-Marie — Gignac-la-Nerthe', description: 'Especialidades: matemáticas, NSI, SES.', status: 'Obtenido' },
+        { period: '2023', degree: 'BAFA', school: 'Brevet d\'aptitude aux fonctions d\'animateur (Francia)', description: 'Accompanamiento de menores, seguridad, dinámica de grupo y animación.', status: 'Obtenido' }
       ]
     },
     experience: {
       title: 'Recorrido y experiencia',
       items: [
-        { period: 'Jul-Ago 2025', duration: '2 meses', role: 'Teleoperador CRC', company: 'Groupe ETIC', location: 'Marsella', description: 'Gestion de solicitudes por mensajeria y llamadas a prospectos segun objetivos.' },
-        { period: 'Verano 2024', duration: '2 meses', role: 'Animador en centro de ocio', company: 'Ayuntamiento de Septemes-les-Vallons', location: 'Septemes', description: 'Planificacion de actividades deportivas y educativas con supervision de grupos.' },
-        { period: 'Verano 2023', duration: '2 meses', role: 'Animador (10-12 anos)', company: 'Planet Jeunes - Luynes', location: 'Luynes', description: 'Animacion de grupos, organizacion de actividades y reaccion ante imprevistos.' },
+        { period: 'Jul.-ago. 2025', duration: '2 meses', role: 'Teleoperador CRC', company: 'Groupe ETIC', location: 'Marsella', description: 'Tratamiento de solicitudes por mensajería, llamadas a prospectos y cumplimiento de procedimientos de calidad.' },
+        { period: 'Verano 2024', duration: '2 meses', role: 'Animador en centro de ocio', company: 'Ayuntamiento de Septèmes-les-Vallons', location: 'Septèmes-les-Vallons', description: 'Planificación de actividades educativas y deportivas y supervisión de grupos.' },
+        { period: 'Verano 2023', duration: '2 meses', role: 'Animador (10-12 años)', company: 'Planet Jeunes — Luynes', location: 'Luynes', description: 'Acompañamiento de niños, dinámicas de grupo e imprevistos.' },
         { period: '2024', duration: '8 semanas', role: 'Practicante operativo', company: 'Mon Club Football', location: 'Bouc-Bel-Air', description: 'Facturas, reservas, llamadas, disponibilidad de campos, stock y caja.' },
-        { period: '2023-2024', duration: '1 ano', role: 'Compra-venta online', company: 'Proyecto personal - Vinted', location: 'Remote', description: 'Busqueda de productos, negociacion, gestion de margen, seguimiento y envios.' }
+        { period: '2023-2024', duration: '1 año', role: 'Compra-venta online', company: 'Proyecto personal — Vinted', location: 'A distancia', description: 'Sourcing, negociación, seguimiento de ventas, margen y logística.' }
       ]
     },
     skills: {
@@ -406,30 +415,30 @@ const translations = {
       professional: 'Competencias profesionales',
       personal: 'Aptitudes personales',
       languages: 'Idiomas',
-      proSkills: ['Relacion con clientes', 'Gestion de horarios', 'Seguimiento administrativo y facturacion', 'Gestion de stock y caja', 'Coordinacion operativa', 'Canva y comunicacion digital'],
-      softSkills: ['Trabajo en equipo', 'Adaptabilidad', 'Rigor', 'Relacion interpersonal', 'Paciencia', 'Puntualidad'],
+      proSkills: ['Management operativo y coordinación', 'Gestión de horarios', 'Seguimiento administrativo y facturación', 'Gestión de stock y caja', 'Coordinación operativa', 'Canva y comunicación digital'],
+      softSkills: ['Trabajo en equipo', 'Adaptabilidad', 'Rigor', 'Relación interpersonal', 'Paciencia', 'Puntualidad'],
       langs: [
-        { lang: 'Frances', level: 'Lengua materna' },
-        { lang: 'Ingles', level: 'B2' },
-        { lang: 'Espanol', level: 'A2' }
+        { lang: 'Francés', level: 'Lengua materna' },
+        { lang: 'Inglés', level: 'Intermedio (B2)' },
+        { lang: 'Español', level: 'Intermedio (A2)' }
       ]
     },
     future: {
       title: 'Futuro, proyectos y ambiciones',
-      intro: 'Busco una alternancia desde septiembre de 2026 para seguir aprendiendo en finanzas o coordinacion de eventos.',
+      intro: 'Busco una alternancia a partir de septiembre de 2026 en marketing internacional y/o management, para seguir aprendiendo en el terreno.',
       cards: [
-        { title: 'Estudios', description: 'Terminar el Bachelor y continuar con un Master en finanzas o management.' },
-        { title: 'Competencias a desarrollar', description: 'Reforzar gestion de actividad, organizacion, reporting y coordinacion de proyectos.' },
-        { title: 'Objetivo profesional', description: 'Evolucionar hacia funciones de gestion operativa o coordinacion de eventos.' }
+        { title: 'Estudios', description: 'Terminar el Bachelor y cursar un Máster orientado a marketing internacional o management.' },
+        { title: 'Competencias a desarrollar', description: 'Reforzar gestión de actividad, organización, reporting y coordinación de proyectos.' },
+        { title: 'Objetivo profesional', description: 'Evolucionar hacia puestos donde el management de equipo y proyecto, la estrategia comercial y las responsabilidades se unan.' }
       ]
     },
     commitments: {
       title: 'Compromisos',
       subtitle: 'Compromisos que reflejan constancia y valores',
       items: [
-        { title: 'Les Chats de Marie-Helene', description: 'Apoyo a iniciativas de proteccion animal.' },
-        { title: 'Donante regular de sangre', description: 'Donaciones regulares en Maison du Sang de Marsella.' },
-        { title: 'Medicos Sin Fronteras', description: 'Apoyo a acciones humanitarias como donante.' }
+        { title: 'Les Chats de Marie-Hélène', description: 'Apoyo a iniciativas de protección animal.' },
+        { title: 'Donante regular de sangre', description: 'Donaciones regulares en la Maison du sang de Marsella.' },
+        { title: 'Médicos sin fronteras', description: 'Apoyo humanitario como donante.' }
       ]
     },
     travel: {
@@ -446,9 +455,9 @@ const translations = {
     },
     contact: {
       title: 'Contacto',
-      subtitle: 'Disponible para hablar sobre mi perfil y oportunidades de alternancia desde septiembre de 2026.',
-      location: 'Septemes 13240',
-      email: 'Enviarme un email',
+      subtitle: 'Disponible para hablar de mi perfil, una alternancia en marketing internacional y/o management, u otras oportunidades desde septiembre de 2026.',
+      location: 'Septèmes-les-Vallons (13240)',
+      email: 'Enviarme un correo',
       linkedin: 'Ver mi LinkedIn',
       downloadCV: 'Descargar CV'
     },
@@ -459,18 +468,18 @@ const translations = {
     wiki: {
       back: 'Volver al portfolio',
       title: 'Lucas Cerasomma Ribeiro',
-      subtitle: 'Biografia inspirada en una pagina enciclopedica',
-      intro: 'es un estudiante frances con base en Septemes y un perfil orientado a gestion, servicio al cliente y coordinacion.',
+      subtitle: 'Biografía inspirada en una página enciclopédica',
+      intro: 'es un estudiante francés con base en Septèmes-les-Vallons; su perfil combina gestión operativa, proyectos y coordinación.',
       tocTitle: 'Contenido',
-      toc: { identity: 'Identidad', education: 'Formacion', experience: 'Recorrido', skills: 'Competencias', commitments: 'Compromisos', interests: 'Apertura' },
-      infobox: { status: 'Estudiante', field: 'Finanzas, gestion, eventos', location: 'Septemes, Francia', languages: 'Frances, ingles, espanol' },
+      toc: { identity: 'Identidad', education: 'Formación', experience: 'Recorrido', skills: 'Competencias', commitments: 'Compromisos', interests: 'Apertura' },
+      infobox: { status: 'Estudiante', field: 'Marketing internacional, management', location: 'Septèmes-les-Vallons, Francia', languages: 'Francés, inglés, español' },
       sections: {
-        identity: { title: 'Identidad', content: 'Estudiante de ESSCA con orientacion practica en gestion y operaciones centradas en el cliente.' },
-        education: { title: 'Formacion', content: 'Actualmente cursa un Bachelor en Management Internacional despues del bachillerato.' },
-        experience: { title: 'Recorrido', content: 'Experiencia en atencion al cliente, animacion, apoyo operativo y gestion diaria.' },
-        skills: { title: 'Competencias', content: 'Competencias en organizacion, planificacion, seguimiento administrativo y trabajo en equipo.' },
-        commitments: { title: 'Compromisos', content: 'Implicacion regular en acciones solidarias y asociativas.' },
-        interests: { title: 'Apertura internacional', content: 'Los viajes refuerzan su adaptabilidad y su apertura cultural.' }
+        identity: { title: 'Identidad', content: 'Estudiante de ESSCA orientado al management y al marketing internacional.' },
+        education: { title: 'Formación', content: 'Bachelor en Management Internacional tras el bachillerato; titular del BAFA.' },
+        experience: { title: 'Recorrido', content: 'Experiencia en acogida al público, animación, apoyo operativo y coordinación.' },
+        skills: { title: 'Competencias', content: 'Organización, seguimiento administrativo, comunicación y trabajo en equipo.' },
+        commitments: { title: 'Compromisos', content: 'Compromiso con iniciativas solidarias y asociativas, incluidas donaciones regulares.' },
+        interests: { title: 'Apertura internacional', content: 'Los viajes refuerzan la adaptación y la capacidad de trabajar en contextos variados.' }
       }
     }
   }
