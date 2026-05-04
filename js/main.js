@@ -64,7 +64,7 @@ const translations = {
           period: '2024',
           degree: 'Baccalauréat général',
           school: 'Lycée Saint-Louis Sainte-Marie — Gignac-la-Nerthe',
-          description: 'Spécialités : mathématiques, NSI, SES.',
+          description: 'Spécialités : LLCE, mathématiques et SES.',
           status: 'Obtenu'
         },
         {
@@ -264,7 +264,7 @@ const translations = {
       title: 'Education',
       items: [
         { period: '2024-2027', degree: 'International Management Bachelor', school: 'ESSCA', description: 'Management, marketing, project work and multicultural teamwork.', status: 'In progress' },
-        { period: '2024', degree: 'General baccalaureate', school: 'Lycée Saint-Louis Sainte-Marie — Gignac-la-Nerthe', description: 'Specialisms: mathematics, computer science (NSI), economics (SES).', status: 'Completed' },
+        { period: '2024', degree: 'General baccalaureate', school: 'Lycée Saint-Louis Sainte-Marie — Gignac-la-Nerthe', description: 'Specialisms: LLCE (languages & literature), mathematics, economics (SES).', status: 'Completed' },
         { period: '2023', degree: 'BAFA (youth work certificate)', school: 'French youth leadership qualification', description: 'Supervising minors, safety, group dynamics and facilitation.', status: 'Completed' }
       ]
     },
@@ -396,7 +396,7 @@ const translations = {
       title: 'Formación',
       items: [
         { period: '2024-2027', degree: 'Bachelor en Management Internacional', school: 'ESSCA', description: 'Management, marketing, gestión de proyectos y trabajo en equipo multicultural.', status: 'En curso' },
-        { period: '2024', degree: 'Bachillerato general', school: 'Lycée Saint-Louis Sainte-Marie — Gignac-la-Nerthe', description: 'Especialidades: matemáticas, NSI, SES.', status: 'Obtenido' },
+        { period: '2024', degree: 'Bachillerato general', school: 'Lycée Saint-Louis Sainte-Marie — Gignac-la-Nerthe', description: 'Especialidades: LLCE, matemáticas y SES.', status: 'Obtenido' },
         { period: '2023', degree: 'BAFA', school: 'Brevet d\'aptitude aux fonctions d\'animateur (Francia)', description: 'Accompanamiento de menores, seguridad, dinámica de grupo y animación.', status: 'Obtenido' }
       ]
     },
